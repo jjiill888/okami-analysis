@@ -26,16 +26,25 @@ To build and run this demo, you need:
 
 ### Recommended packages (Debian / Ubuntu)
 
-## 2. Build Instructions
-
-In the project directory, compile with:
-```bash
+```
 sudo apt update
 sudo apt install g++ \
     libglew-dev \
     libglfw3-dev \
     libglm-dev \
     mesa-utils
+```
 
-In the project directory, compile with: g++ okami_demo.cpp -o okami_demo \
+## 2. Build Instructions
+
+In the project directory, compile with: 
+```bash
+g++ okami_demo.cpp -o okami_demo \
     -std=c++11 -lGL -lGLEW -lglfw -lm
+```
+
+### 3. Running the Demo
+
+```
+./okami_demo
+```
